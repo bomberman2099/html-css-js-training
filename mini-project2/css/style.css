@@ -1,0 +1,71 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.header li {
+    display: inline-block;
+
+}
+
+.header li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 1.2rem;
+}
+
+.header li a:hover {
+    background-color: black;
+    color: orange;
+}
+
+.section {
+    background-color: lightblue;
+    margin: 2rem 6.5rem;
+    padding: 1.2rem;
+    border-radius: 0.9rem;
+}
+
+.section h2{
+    background-color: blueviolet;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+}
+
+.BackToHeader {
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    margin: 0.1rem 6.5rem;
+    border-radius: 0.7rem;
+    padding: 0;
+}
+
+.BackToHeader li {
+    display: inline-block;
+
+}
+
+.BackToHeader a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+   padding: 2rem;
+}
+
+.BackToHeader a:hover{
+    background-color: gray;
+    border-radius: 0.7rem;
+}
