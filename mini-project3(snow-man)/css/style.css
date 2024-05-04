@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue;
+}
+
+.snow-man{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 11rem;
+    
+    box-shadow: 
+    /* eyes */
+    2.4rem 0,
+    /* nose */
+    1.2rem 1.8rem orange,
+    /* mouth */
+    0rem 3rem 0 -0.2rem,
+    0.4rem 3.7rem 0 -0.2rem,
+    1rem 4rem 0 -0.2rem,
+    1.6rem 4rem 0 -0.2rem,
+    2.2rem 3.7rem 0 -0.2rem,
+    2.5rem 3rem 0 -0.2rem,
+    /* head */
+    1.2rem 2rem 0 3rem white,
+    1.2rem 2rem 0.5rem 3rem,
+    /* Shirt buttons */
+    1.3rem 8rem 0 0.2rem,
+    1.3rem 10rem 0 0.2rem,
+    1.3rem 12rem 0 0.2rem,
+    /* body */
+    1.3rem 10rem 0 6rem white,
+    1.3rem 10rem 0.4rem 6rem,
+    1.3rem 41rem 0 30rem #9e5e19
+    ;
+    
+    
+
+}
