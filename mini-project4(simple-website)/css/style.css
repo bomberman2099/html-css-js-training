@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'abolition';
+    src: url('../fonts/AbolitionTest-Lines.otf');
+}
+
+body{
+    font-family: roboto;
+}
+
+.header{
+    padding-top: 2rem;
+    height: 34.3rem;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.header .nav-list{
+    list-style-type: none;
+}
+
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    
+}
+.header .nav-list .nav-item:hover{
+    color: orange;
+    
+}
+
+.header .title{
+    font-size: 3rem;
+    font-family: roboto; 
+    margin-top: 5.6rem;
+
+}
+
+.header .title span{
+    color: orange;
+}
+
+.header .desc{
+    margin: auto; /*وسط کردن دیسپلی باکس */
+    margin-top: 1.8rem;
+    width: 30.5rem;
+    height: 3.45rem;
+    line-height: 3.45rem;  /*برای قرار دادن اندازه بین باکس  */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1.3rem;
+    border: 1px solid white;
+}
