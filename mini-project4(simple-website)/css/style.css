@@ -131,3 +131,26 @@ body{
 }
 
 
+
+.footer{
+    margin: 5rem 0;
+    height: 5rem;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    display: inline-block;
+}
+
+.footer li img{
+    margin: 0.6rem 1rem;
+}
+
+.footer p{
+    margin-top: 1rem;
+}
