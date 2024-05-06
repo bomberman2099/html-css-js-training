@@ -100,3 +100,34 @@ body{
     /* text-align: justify; */
 
 } 
+
+.about{
+    height: 43.5rem;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    padding-top: 4.1rem;
+    background-color: #373837;
+    background-blend-mode: multiply;
+}
+
+.circle{
+    margin: auto;
+    width: 35.5rem;
+    height: 35.5rem;
+    background-color: rgb(135, 135, 135, 0.3);
+    border-radius: 50%;
+    text-align: center;
+    padding: 10rem 7.5rem;
+    color: white;
+}
+
+.circle h2{
+    font-size: 2rem;
+}
+
+.circle p{
+    margin-top: 2.5rem;
+    text-align: justify;
+}
+
+
