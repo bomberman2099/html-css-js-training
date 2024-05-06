@@ -64,3 +64,39 @@ body{
     border-radius: 1.3rem;
     border: 1px solid white;
 }
+
+.members{
+    text-align: center;
+    padding: 3.1rem 1.8rem;
+}
+.members h2{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.member-list {
+    list-style-type: none;
+    
+
+}
+
+.member-item{
+    display: inline-block;
+    width: 22rem;
+    margin: 0.7rem;
+    box-shadow: 0 0 0.7rem #bbbbbb;
+}
+
+.member-pic{
+    width: 100%;  /* each photo should be 22rem from width */
+}
+
+.member-name{
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+}
+
+.member-bio{
+    margin: 1.5rem;
+    /* text-align: justify; */
+
+} 
