@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'abolition';
+    src: url('../fonts/AbolitionTest-Lines.otf');
+}
+
+body{
+    font-family: roboto;
+}
+
+.header{
+    padding-top: 2rem;
+    height: 34.3rem;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.header .nav-list{
+    list-style-type: none;
+}
+
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    
+}
+.header .nav-list .nav-item:hover{
+    color: orange;
+    
+}
+
+.header .title{
+    font-size: 3rem;
+    font-family: roboto; 
+    margin-top: 5.6rem;
+
+}
+
+.header .title span{
+    color: orange;
+}
+
+.header .desc{
+    margin: auto; /*وسط کردن دیسپلی باکس */
+    margin-top: 1.8rem;
+    width: 30.5rem;
+    height: 3.45rem;
+    line-height: 3.45rem;  /*برای قرار دادن اندازه بین باکس  */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1.3rem;
+    border: 1px solid white;
+}
+
+.members{
+    text-align: center;
+    padding: 3.1rem 1.8rem;
+}
+.members h2{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.member-list {
+    list-style-type: none;
+    
+
+}
+
+.member-item{
+    display: inline-block;
+    width: 22rem;
+    margin: 0.7rem;
+    box-shadow: 0 0 0.7rem #bbbbbb;
+}
+
+.member-pic{
+    width: 100%;  /* each photo should be 22rem from width */
+}
+
+.member-name{
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+}
+
+.member-bio{
+    margin: 1.5rem;
+    /* text-align: justify; */
+
+} 
+
+.about{
+    height: 43.5rem;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    padding-top: 4.1rem;
+    background-color: #373837;
+    background-blend-mode: multiply;
+}
+
+.circle{
+    margin: auto;
+    width: 35.5rem;
+    height: 35.5rem;
+    background-color: rgb(135, 135, 135, 0.3);
+    border-radius: 50%;
+    text-align: center;
+    padding: 10rem 7.5rem;
+    color: white;
+}
+
+.circle h2{
+    font-size: 2rem;
+}
+
+.circle p{
+    margin-top: 2.5rem;
+    text-align: justify;
+}
+
+
+
+.footer{
+    margin: 5rem 0;
+    height: 5rem;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    display: inline-block;
+}
+
+.footer li img{
+    margin: 0.6rem 1rem;
+}
+
+.footer p{
+    margin-top: 1rem;
+}
