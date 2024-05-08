@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .container{
     margin: auto;
     margin: 5rem 14rem;
@@ -12,6 +14,7 @@
 h2{
     text-align: center;
     font-size: 7rem;
+    
 }
 
 .info{
@@ -41,18 +44,20 @@ h2{
     text-align: center;
     color: aliceblue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .titles p{
     font-size: large;
-    word-spacing: 1.48rem;
+    
+    word-spacing: 1.2rem;
 }
 
 .MainText{
     text-align: center;
     font-size: 10.4rem;
+    font-family:monospace;
     line-height: 9rem;
 }
 
@@ -72,6 +77,7 @@ img{
     width: 200px;
 }
 li h3{
+    font-family:monospace;
     margin: 0.5rem;
     font-size: x-large;
 }
