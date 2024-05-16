@@ -86,7 +86,7 @@ body {
     
 }
 
-.subscription button{
+.subscription .btn{
     margin: auto;
     display: block;
     text-align: center;
@@ -99,6 +99,13 @@ body {
     box-shadow: .1rem .1rem .9rem .2rem  rgba(92, 90, 90, 0.25);
     border: none;
 }
+
+.subscription .btn:hover{
+    cursor: pointer;
+    background-color: hsl(71, 91%, 55%);
+
+}
+
 
 .whyus {
     display: inline-block;

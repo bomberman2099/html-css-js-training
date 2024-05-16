@@ -73,10 +73,7 @@ main{
     width: 300px;
     height: 220px;
     box-shadow: rgba(42, 150, 192, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    /* i dont know how to make it responsive right now so i write this comment for the future  */
-     /* if layout have a bug: */
-    /* margin: 2rem; */
-    margin: 1.5rem;
+    margin: 1.5rem 3rem;
     display: inline-block;
     border-radius: 5px;
     padding: 10px;
