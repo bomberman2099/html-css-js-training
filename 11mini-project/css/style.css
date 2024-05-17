@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif
+}
+
+.container{
+    width: 300px;
+    height: 540px;
+    background-color: #15273f;
+    padding: 20px;
+    border-radius: 11px;
+
+}
+
+.container .header img{
+    width: 100%;
+    border-radius: 11px;
+}
+
+.container h2{
+    color: white;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin: 1.2rem 0;
+    
+}
+
+.container .paragraf{
+    color: #7c91af;
+    line-height: 1.6rem;
+    margin: 1.2rem 0;
+}
+
+.info{
+    display: flex;
+    
+}
+
+.container .ETH-text{
+    color: #3ee0e3;
+    margin: 0 1rem;
+
+}
+
+.container .clock{
+    color: #89a7d4;
+    margin: 0 1rem;
+}
+
+.container .days{
+    color: #89a7d4;   
+}
+
+.container .profile{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: #89a7d4;
+    width: 30px;
+    height: 30px;
+}
+
+
+.hr{
+    margin: 1rem 0;
+    border-bottom: 1px solid #7c91af;
+    opacity: 0.2;
+}
+
+.prof{
+    display: flex;
+}
+
+
+.container h4{
+    color: #89a7d4;
+    margin: 0.5rem 1rem;
+}
+
+h4 span{
+    color: #fff;
+}
