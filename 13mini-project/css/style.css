@@ -1,0 +1,45 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container styling */
+Main{
+    margin: 80px auto;
+    width: 1000px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4. 1fr);
+    gap: 25px;
+}
+/* item styling */
+.item{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-size: cover;
+}
+/* add image and layout control */
+.item:nth-child(1){
+    background-image: url(../images/1.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.item:nth-child(2){
+    background-image: url(../images/2.jpg);
+}
+.item:nth-child(3){
+    background-image: url(../images/3.jpg);
+}
+.item:nth-child(4){
+    background-image: url(../images/4.jpg);
+}
+.item:nth-child(5){
+    background-image: url(../images/5.jpg);
+}
+.item:nth-child(6){
+    background-image: url(../images/6.jpg);
+    grid-column: 4/2;
+    grid-row: 3/5;
+}
