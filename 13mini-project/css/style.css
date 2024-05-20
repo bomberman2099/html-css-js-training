@@ -20,6 +20,7 @@ Main{
     border: 1px solid black;
     background-size: cover;
 }
+
 /* add image and layout control */
 .item:nth-child(1){
     background-image: url(../images/1.jpg);
