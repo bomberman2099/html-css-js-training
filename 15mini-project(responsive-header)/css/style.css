@@ -1,0 +1,78 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* add font  */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+ /* header container styles  */
+.header{
+    padding: 0.5em 0;
+    border: 1px solid #a2a2a2;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+ /* nav bar styles  */
+ul{
+    list-style-type: none;
+}
+a{
+    color: #34395e;
+    text-decoration: none;
+}
+.logo{
+    font-size: 1.45em;
+}
+.main-nav{
+    margin-top: 5px;
+}
+.logo a,.main-nav a{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    /* If the screen size is less than 770 pixels, the links will be placed in columns */
+    display: block;
+}
+.main-nav a{
+    font-size: 1em;
+    
+}
+.main-nav a:hover{
+    color: rgb(70, 173, 173);
+}
+
+/* ----=====media queries=====-----  */
+@media screen and (min-width: 770px){
+    .header .main-nav{
+        display: flex;
+        
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+    }
+    .main-nav{
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1125px){
+    .header{
+        display: flex;
+    }
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+       
+        
+    }
+}
