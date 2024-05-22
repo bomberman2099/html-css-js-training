@@ -1,0 +1,80 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* add font  */
+body{
+    font-family: "Montserrat", sans-serif;
+    background: url(../images/wp7287173-4k-mountain-wallpapers.jpg);
+    background-position: top;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.header, .nav{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    justify-content: space-between;
+}
+.nav{
+    flex: 1;
+    justify-content: space-around;
+}
+@media all and (min-width:650px) {
+    .header, .nav{
+        flex-direction: row;
+    }
+}
+@media all and (min-width:1050px) {
+    .nav{
+        flex-direction: row;
+        flex: none;
+    }
+}
+.header{
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+}
+.nav{
+    list-style: none;
+}
+.nav li{
+    margin: 12px 0  12px 30px;
+    
+}
+.nav li a:hover{
+    color: rgba(0, 0, 0, 0.616);
+    transition: all ease 0.5s;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: all ease 0.5s;
+}
+.nav li:last-child a{
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.351);
+    border-radius: 1px;
+}
+.nav li:last-child a:hover{
+    background-color: rgba(255, 255, 255, 0.551);
+    color: #fff;
+}
+@media all and (min-width:1050px) {
+    .header{
+        width: 1050px;
+        min-width: 770px;
+    }
+}
