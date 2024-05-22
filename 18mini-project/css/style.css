@@ -1,0 +1,87 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* add font  */
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background:  #0d1a2d;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+ /* card styling  */
+.card{
+    width: 300px;
+    height: 525px;
+    background: #15273f;
+    border-radius: 5px;
+    padding: 0 1.2rem;
+    box-shadow: 0 10px 5px 10px #0b1522;
+}
+.card .image{
+    padding: 1.2rem 0;
+}
+.card .image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.card p{
+    color: #8da4c7;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.card .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2rem auto;
+}
+.card .info .info-inner{
+    display: flex;
+}
+.card .icon-ethereum{
+    width: 10px;
+    margin-right: 0.6rem;
+    height: 16px;
+}
+.card p.ethereum{
+    color: #3dfbfa;
+}
+.card .clock-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 0.3rem;
+}
+.card p.clock{
+    color: #8bacd9;
+}
+.card .credit .hr{
+    border-bottom: 1px solid #8bacd9;
+    opacity: .2;
+}
+.card .credit .avatar{
+    width: 30px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.card .credit .credit-inner{
+    display: flex;
+    align-items: center;
+}
+.card .credit-inner p{
+    margin: 0.6rem 1.3rem 0;
+}
+.credit-inner p span{
+    color: beige;
+}
