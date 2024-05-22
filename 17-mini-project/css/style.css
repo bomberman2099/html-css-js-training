@@ -1,0 +1,206 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* add font  */
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+/* header styling  */
+.header .bg{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: url(../images/bg-header-desktop.png) no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10em;
+}
+.header .logo{
+    margin-top: 3em;
+}
+.header .texts{
+    margin-top: 1em;
+}
+.header h1, .header p{
+    width: 645px;
+    margin: 1em 0;
+    font-weight: 500;
+}
+.header h1{
+    font-weight: 700;
+    color: #4d565e;
+}
+h2, h3{
+    font-weight: bolder;
+    color: #4d565e;
+}
+p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #b3acac;
+}
+ul{
+    list-style-type: none;
+}
+.btns{
+    text-align: center;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem auto 3em;
+    
+}
+.btns a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns .btn-green, .btns .btn-blue{
+    width: 185px;
+    height: 42px;
+    padding: 10px 20px;
+    background: #26bba5;
+    box-shadow: 0 3px 0 0 #219f89;
+    box-shadow: 0 3px 3px 0 #219f89;
+    font-size: 17px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btns .btn-blue{
+    background: #5f75ff;
+    box-shadow: 0 3px 0 0 #5161d8;
+    box-shadow: 0 3px 3px  #5161d8;
+}
+.btns .btn-blue:hover{
+    background: #566cfa;
+    box-shadow: 0 3px 0 -0.6 #4b5bd4;
+    box-shadow: 0 3px 3px  -0.6  #4d5dd6;
+    opacity: 0.85;
+}
+.btns .btn-green:hover{
+    background: #23c7ae;
+    box-shadow: 0 3px 0 0 #1b9984;
+    box-shadow: 0 3px 3px 0 #1b9984;
+    opacity: 0.85;
+}
+.header .btns{
+    margin-top: -2.5em;
+}
+.features{
+    margin: 6em 0 8rem;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto ;
+}
+.texts h2{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+.texts p{
+    width: 650px;
+    margin: 20px 0 5em;
+}
+.features-inner{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features-inner{
+    margin-left: -100px;
+}
+
+.features-inner li{
+    margin: 4.5em 0 5em;
+}
+.features-inner li p{
+    width: 380px;
+    height: 90%;
+    margin: 0.5em 0;
+}
+.features-inner h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.tools{
+    text-align: center;
+}
+.tools ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools li{
+    width: 385px;
+    margin: -2rem 1rem 5em;
+}
+.tools li img{
+    margin: 0 1rem 2em;
+}
+.tools li p{
+    margin: 1em 1rem 2em;
+}
+.tools li h4{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.companies{
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 5em;
+}
+.companies img{
+    height: 50%;
+}
+.download-section .texts p{
+    margin: 1em 0 0 ;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
+    background: #e0e0e0;
+    margin-top: 5em;
+}
+.footer .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.footer .links .logo{
+    width: 50px;
+}
+.links .links-inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.links-inner a{
+    margin: 10px 40px;
+    color: #616161;
+    text-decoration: none;
+    font-weight: 500;
+}
+.links-inner a:hover{
+    color: #8d9c00;
+}
+.socials a{
+    margin: 0 0.35rem;
+}
