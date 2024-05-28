@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd or Even</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form">
+        <form onsubmit="oddOrEven(event)">
+            <h1><span>Odd</span> or <span>Even</span></h1>
+            <div class="input-number-box">
+                <input type="number" placeholder="Number" id="numb">
+            </div>
+            <button type="submit" class="btn">Result</button>
+        </form>
+        <div class="output-box" id="output-box" style="display:none;">
+            <h3 id="output"></h3>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
