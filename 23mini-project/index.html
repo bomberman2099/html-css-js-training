@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+    <div class="form-box">
+        <form onsubmit="checkPrime(event)">
+            <h2>Prime Number Checker</h2>
+            <div class="input-box">
+                <input id="num" type="number" required >
+                <label for="Number">Number</label>
+            </div>
+            <button type="submit" class="btn">Result</button>
+        </form>
+        <div class="output-box" id="output-box" style="display: none;">
+            <h3 id="output"><span>99</span> is <span>not</span><br> prime number!</h3>
+        </div>
+    </div>
+</section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
