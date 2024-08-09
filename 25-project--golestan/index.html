@@ -5,6 +5,7 @@
     <meta name="viewaort" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="continer">
@@ -202,7 +203,9 @@
           <h4>مجله گلستان</h4>
         </div>
         <div class="weblog green">
-          <div class="web-box">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+          <div class="web-box swiper-slide">
             <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
             <div class="text-box">
               <h3>تاکو مکزیکی</h3>
@@ -214,7 +217,7 @@
               <a href="" class="btn">ادامه مطالب</a>
             </div>
           </div>
-          <div class="web-box">
+          <div class="web-box swiper-slide">
             <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
             <div class="text-box">
               <h3>تاکو مکزیکی</h3>
@@ -226,7 +229,7 @@
               <a href="" class="btn">ادامه مطالب</a>
             </div>
           </div>
-          <div class="web-box">
+          <div class="web-box swiper-slide">
             <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
             <div class="text-box">
               <h3>تاکو مکزیکی</h3>
@@ -238,7 +241,60 @@
               <a href="" class="btn">ادامه مطالب</a>
             </div>
           </div>
+          <div class="web-box swiper-slide">
+            <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
+            <div class="text-box">
+              <h3>تاکو مکزیکی</h3>
+              <p>
+                یکی از غذاهای معروف مکزیکی تاکو است، تاکو شهرت جهانی دارد و در
+                همه نقاط دنیا طرفداران فراوانی پیدا کرده است. برای تهیه تاکو
+                بسته
+              </p>
+              <a href="" class="btn">ادامه مطالب</a>
+            </div>
+          </div>
+          <div class="web-box swiper-slide">
+            <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
+            <div class="text-box">
+              <h3>تاکو مکزیکی</h3>
+              <p>
+                یکی از غذاهای معروف مکزیکی تاکو است، تاکو شهرت جهانی دارد و در
+                همه نقاط دنیا طرفداران فراوانی پیدا کرده است. برای تهیه تاکو
+                بسته
+              </p>
+              <a href="" class="btn">ادامه مطالب</a>
+            </div>
+          </div>
+          <div class="web-box swiper-slide">
+            <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
+            <div class="text-box">
+              <h3>تاکو مکزیکی</h3>
+              <p>
+                یکی از غذاهای معروف مکزیکی تاکو است، تاکو شهرت جهانی دارد و در
+                همه نقاط دنیا طرفداران فراوانی پیدا کرده است. برای تهیه تاکو
+                بسته
+              </p>
+              <a href="" class="btn">ادامه مطالب</a>
+            </div>
+          </div>
+          <div class="web-box swiper-slide">
+            <img src="./image/recipe-pic-tacos-Mexican.jpg" alt="" />
+            <div class="text-box">
+              <h3>تاکو مکزیکی</h3>
+              <p>
+                یکی از غذاهای معروف مکزیکی تاکو است، تاکو شهرت جهانی دارد و در
+                همه نقاط دنیا طرفداران فراوانی پیدا کرده است. برای تهیه تاکو
+                بسته
+              </p>
+              <a href="" class="btn">ادامه مطالب</a>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
         <div class="weblog ">
           <div class="web-box">
             <div id="61517110236"><script type="text/JavaScript" src="https://www.aparat.com/embed/t307z99?data[rnddiv]=61517110236&data[responsive]=yes"></script></div>
@@ -350,5 +406,18 @@
         </div>
       </footer>
     </div>
+    <!-- Swiper JS -->
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

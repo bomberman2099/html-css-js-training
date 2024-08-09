@@ -502,3 +502,8 @@ header {
   width: 100%;
   padding: 80px 50px;
 }
+
+.swiper {
+  width: 1100px;
+  height: 100%;
+}
