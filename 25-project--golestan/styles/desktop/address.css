@@ -1,0 +1,16 @@
+.address {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    padding: 100px 280px;
+  
+    a {
+      color: var(--dark);
+      font-weight: 600;
+    }
+  
+    .current {
+      color: red;
+    }
+  }

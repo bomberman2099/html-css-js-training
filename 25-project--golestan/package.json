@@ -1,15 +1,18 @@
 {
-  "name": "25-project--golestan",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "sh",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "devDependencies": {
+    "vite": "^5.4.1"
+  },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "swiper": "^11.1.12"
   }
 }
