@@ -1,0 +1,45 @@
+.footer {
+  border-top: 25px solid red;
+  background: url("../image/header-back-1.png");
+
+  padding: 20px 50px;
+
+  font-size: 13px;
+  color: var(--white);
+
+  .top {
+    display: flex;
+    justify-content: center;
+
+    .links {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+
+      img {
+        padding: 5px;
+      }
+
+      h5 {
+        border-top: 1px solid #ffffff77;
+        border-bottom: 1px solid #ffffff77;
+        margin: 0 10px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      a {
+        color: #b9b9b9;
+      }
+    }
+  }
+
+  .bottom {
+    margin: 50px 0 10px;
+    color: #ffffff77;
+    text-align: center;
+  }
+}

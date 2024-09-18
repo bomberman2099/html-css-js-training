@@ -18,8 +18,7 @@ header {
   }
   .logo {
     position: absolute;
-    left: 650px;
-    right: 0;
+    right: 350px;
     top: 10px;
     width: 150px;
 
@@ -29,11 +28,9 @@ header {
   }
 
   ul {
-    display: flex;
     margin-right: 200px;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 
     li {
       opacity: 1;
@@ -42,7 +39,6 @@ header {
       a {
         font-size: 15px;
         font-weight: 300;
-        border-left: 1px solid var(--header-link);
         padding: 8px 15px;
       }
 

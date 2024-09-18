@@ -1,0 +1,39 @@
+.responsibility {
+  position: relative;
+  background: #105153;
+  min-height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 22px solid var(--border-bottom);
+
+  h5 {
+    color: #b5e0dd;
+    font-size: 20px;
+  }
+
+  .Horizontal_pipe_res {
+    height: 5px;
+    width: 100%;
+    border-bottom: 1px solid #b5e0dd49;
+  }
+
+  h4 {
+    color: #009da2;
+    font-size: 30px;
+    margin: 10px;
+    span {
+      color: #00d6db;
+      font-size: 20px;
+    }
+  }
+  p {
+    color: #a8a8a8;
+  }
+  img {
+    position: absolute;
+    bottom: -130px;
+  }
+}

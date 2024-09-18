@@ -1,12 +1,5 @@
 @import url("./settings.css");
-@import url("./desktop/header.css");
-@import url("./desktop/banner.css");
-@import url("./desktop/address.css");
-@import url("./desktop/about.css");
-@import url("./desktop/about-product.css");
-@import url("./desktop/bg-cooking.css");
-@import url("./desktop/responsibility.css");
-@import url("./desktop/product.css");
-@import url("./desktop/weblog.css");
-@import url("./desktop/socials.css");
-@import url("./desktop/footer.css");
+@import url('./mobile/mobile.css');
+@import url('./tablet/tablet.css') screen and (min-width:778px);
+@import url('./desktop/desktop.css') screen and (min-width:1024px);
+
