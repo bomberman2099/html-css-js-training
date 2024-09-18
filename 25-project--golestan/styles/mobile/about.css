@@ -1,6 +1,6 @@
 .about {
   margin: 40px auto;
-  width: 1000px;
+  
   line-height: 32px;
   font-weight: 300;
 
@@ -16,20 +16,6 @@
   }
 
   .section-about {
-    margin: 100px 0;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    text-align: center;
-
-    .sec-box {
-      p {
-        color: var(--dark);
-      }
-
-      img {
-        width: 160px;
-      }
-    }
+  display: none;
   }
 }

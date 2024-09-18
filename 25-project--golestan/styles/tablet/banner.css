@@ -8,6 +8,7 @@
     max-width: 2000px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     gap: 160px;
   }
 

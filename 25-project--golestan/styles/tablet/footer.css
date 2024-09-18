@@ -9,6 +9,7 @@
 
   .top {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 
     .links {

@@ -1,12 +1,12 @@
 .weblog {
-  margin: 20px auto 200px;
-  width: 1000px;
+  margin: 20px  ;
+  
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   row-gap: 100px;
-  column-gap: 20px;
+  
+  flex-direction: column;
 
   .web-box {
     width: 300px;

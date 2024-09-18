@@ -1,5 +1,5 @@
 @import url("./settings.css");
 @import url('./mobile/mobile.css');
-@import url('./tablet/tablet.css') screen and (min-width:778px);
-@import url('./desktop/desktop.css') screen and (min-width:1024px);
+@import url('./tablet/tablet.css') screen and (min-width:790px);
+@import url('./desktop/desktop.css') screen and (min-width:1088px);
 
