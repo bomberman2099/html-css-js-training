@@ -1,0 +1,4 @@
+@import url("./settings.css");
+@import url("./mobile/card.css");
+@import url("./tablet/card.css") screen and (min-width: 650px);
+@import url("./desktop/card.css") screen and (min-width: 1024px);

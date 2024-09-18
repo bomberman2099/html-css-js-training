@@ -1,0 +1,13 @@
+.cards {
+  grid-template-columns: 1fr 1fr;
+  font-size: 16px;
+  .card {
+    .top {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      width: 240px;
+    }
+  }
+}
