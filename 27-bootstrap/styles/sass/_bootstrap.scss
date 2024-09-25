@@ -1,0 +1,80 @@
+
+$displaies: flex, grid, inline, inline-block, block, none;
+$directions: column, row, row-reverse, column-reverse;
+$wraps: wrap, wrap-reverse, nowrap;
+$justifies: (
+    start: start,
+    center: center,
+    end: end,
+    arround: space-around,
+    evenly: space-evenly,
+    between: space-between
+);
+$bgs: pink, red, blue;
+// display
+@each $display in $displaies {
+    .d-#{$display} {
+        display: $display
+    }
+}
+// direction
+@each $direction in $directions {
+    .flex-#{$directions} {
+        flex-direction: $directions;
+    }
+}
+// wrap
+@each $wrap in $wraps {
+    .flex-#{$wrap} {
+        flex-wrap: $wrap;
+    }
+}
+// bacgrounds
+@each $bg in $bgs {
+    .bg-#{$bg} {
+        background: $bg;
+    }
+}
+//paddings and margins
+@for $number from 0 through 12 {
+    .p-#{$number} {
+        padding: #{$number/4}rem;
+    }
+    .pt-#{$number} {
+        padding-top: #{$number/4}rem;
+    }
+    .pr-#{$number} {
+        padding-right: #{$number/4}rem;
+    }
+    .pb-#{$number} {
+        padding-bottom: #{$number/4}rem;
+    }
+    .pl-#{$number} {
+        padding-left: #{$number/4}rem;
+    }
+    .m-#{$number} {
+        margin: #{$number/4}rem;
+    }
+    .mt-#{$number} {
+        margin-top: #{$number/4}rem;
+    }
+    .mr-#{$number} {
+        margin-right: #{$number/4}rem;
+    }
+    .mb-#{$number} {
+        margin-bottom: #{$number/4}rem;
+    }
+    .ml-#{$number} {
+        margin-left: #{$number/4}rem;
+    }
+}
+// align-justify
+@each $property, $value in $justifies {
+    .justify-contnet-#{$property} {
+        justify-content: $value;
+    }
+    .align-items-#{$property} {
+        align-items: $value;
+    }
+}
+
