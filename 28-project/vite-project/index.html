@@ -11,7 +11,9 @@
     />
   </head>
   <body>
-    <header class="container-fluid bg-black text-white p-2">
+    <header
+      class="container-fluid bg-black text-white p-2 position-sticky top-0 z-3"
+    >
       <div class="row justify-content-between align-items-center m-0">
         <div class="col-auto container-fluid m-0">
           <div class="row">
@@ -255,7 +257,7 @@
       </div>
     </header>
     <main class="bg-dark">
-      <div class="cards">
+      <div class="cards container-xxl">
         <div class="card bg-dark text-white">
           <div class="img">
             <img src="./public/images/spiderman.jpg" alt="spiderman" />
@@ -510,20 +512,50 @@
         </div>
       </div>
     </main>
-    <footer class="container-fluid bg-black text-white p-1">
+    <footer
+      class="container-fluid bg-black text-white p-1 position-sticky bottom-0"
+    >
       <div class="row justify-content-between align-items-center m-0">
         <div class="col-auto container-fluid m-0">
           <div class="row">
-            <div class="col-auto">
+            <div class="d-none col-auto d-lg-flex gap-3">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <g id="ui-icon-tv" viewBox="0 0 24 24">
+                    <g>
+                      <path
+                        d="M15 20.5H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Z"
+                      ></path>
+                      <path
+                        d="M19.5 3.5H4.5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V6.5A3 3 0 0 0 19.5 3.5Zm1 13a1 1 0 0 1-1 1H4.5a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1Z"
+                      ></path>
+                    </g>
+                  </g>
+                </defs>
+                <g fill="#959595">
+                  <g>
+                    <path d="M15 20.5H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Z"></path>
+                    <path
+                      d="M19.5 3.5H4.5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V6.5A3 3 0 0 0 19.5 3.5Zm1 13a1 1 0 0 1-1 1H4.5a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1Z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
               <p class="m-0">تماشا با تلوزیون</p>
             </div>
-            <div class="col-auto">
+            <div class="d-none col-auto d-lg-block">
               <p class="m-0">اپلیکیشن</p>
             </div>
-            <div class="col-auto">
+            <div class="d-none col-auto d-lg-block">
               <p class="m-0">تماس و پشتیبانی</p>
             </div>
-            <div class="col-auto">
+            <div class="d-none col-auto d-lg-block">
               <p class="m-0">فروشگاه</p>
             </div>
             <div class="col-auto">
